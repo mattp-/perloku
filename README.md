@@ -59,7 +59,7 @@ given as an enviroment variable:
 
 ```sh
 #!/bin/sh
-./app.pl daemon --listen http://*:$PORT
+./app.pl --daemon --listen http://*:$PORT
 ```
 
 Test that you can start the server:
